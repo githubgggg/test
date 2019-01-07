@@ -13,6 +13,7 @@ void main(void)
 	struct phone PeoInfo[100];
 	int dPeoNum = 0;
 start:
+	printf("테스트 내용 추가\n");
 	printf("몇명의 정보를 입력할 것입니까?\n");
 	scanf_s("%d", &dPeoNum);
 	if ((dPeoNum<1) || (dPeoNum>100)){
